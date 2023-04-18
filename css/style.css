@@ -1,0 +1,22 @@
+h3 {
+    font-size: 36px;
+    text-align: center;
+    color: blue;
+}
+input, text {
+    color:black;
+}
+input,label {
+    color: navy;
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-align: justify;
+}
+input {
+    text-align: justify;
+    width:38%;
+}
+* {
+    font-size: 24px;
+}

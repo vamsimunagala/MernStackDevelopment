@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="arrayfunction()">For array elements click here </button>
+    <p id="demo"></p>
+</body>
+<script>
+    let arr = new Array(5);
+    for(let i=o;i<arr.length();i++){
+        let input = prompt("enter the value of number ${i}:");
+        let number = parseFloat(input);
+        if(!isNaN(number)){
+            arr[i]=number;
+        }
+    }
+
+    function arrayfunction(){
+        for(let i=o;i<arr.length();i++){
+            document.getElementById("demo").innerHTML=arr[i];
+    }}
+</script>
+</html>
